@@ -13,9 +13,9 @@ import AudioToolbox
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    var audioPlayerHyeeeehLong: AVAudioPlayer = AVAudioPlayer()
-    var audioPlayerHyeeeehShort: AVAudioPlayer = AVAudioPlayer()
-    var beWellAudioPlayer: AVAudioPlayer = AVAudioPlayer()
+    var audioPlayerHyeeeehLong: AVAudioPlayer!
+    var audioPlayerHyeeeehShort: AVAudioPlayer!
+    var beWellAudioPlayer: AVAudioPlayer!
 
     @IBOutlet weak var beWellButton: UIButton!
     @IBOutlet weak var restoreMindBodyButton: UIButton!

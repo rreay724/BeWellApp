@@ -9,11 +9,11 @@
 import UIKit
 import AVFoundation
 
-class LaunchViewController: UIViewController {
+class LaunchViewController: UIViewController, AVAudioPlayerDelegate {
 
     @IBOutlet weak var launchLabel: UILabel!
     
-    var audioPlayer: AVAudioPlayer = AVAudioPlayer()
+    var audioPlayer: AVAudioPlayer!
        
     func fadeViewInThenOut(view : UIView, delay: TimeInterval) {
         
