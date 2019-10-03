@@ -25,6 +25,9 @@
 		FE2B6A212345281B006A74F7 /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1C2345281B006A74F7 /* sound1.m4a */; };
 		FE2B6A2423462F9C006A74F7 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A2323462F9C006A74F7 /* background.jpg */; };
 		FE2B6A262346340B006A74F7 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A252346340B006A74F7 /* background_music.mp3 */; };
+		FEC00ABE2346715E00740DAF /* sound7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABB2346715E00740DAF /* sound7.m4a */; };
+		FEC00ABF2346715E00740DAF /* sound8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABC2346715E00740DAF /* sound8.m4a */; };
+		FEC00AC02346715E00740DAF /* sound6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABD2346715E00740DAF /* sound6.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +72,9 @@
 		FE2B6A1C2345281B006A74F7 /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
 		FE2B6A2323462F9C006A74F7 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../Downloads/BeWellResources/background.jpg; sourceTree = "<group>"; };
 		FE2B6A252346340B006A74F7 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music.mp3; sourceTree = "<group>"; };
-		FEC00AB8234660A700740DAF /* sound7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound7.m4a; sourceTree = "<group>"; };
-		FEC00AB9234660A700740DAF /* sound6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound6.m4a; sourceTree = "<group>"; };
-		FEC00ABA234660A700740DAF /* sound8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound8.m4a; sourceTree = "<group>"; };
+		FEC00ABB2346715E00740DAF /* sound7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound7.m4a; path = ../../../../../Downloads/BeWellResources/sound7.m4a; sourceTree = "<group>"; };
+		FEC00ABC2346715E00740DAF /* sound8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound8.m4a; path = ../../../../../Downloads/BeWellResources/sound8.m4a; sourceTree = "<group>"; };
+		FEC00ABD2346715E00740DAF /* sound6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound6.m4a; path = ../../../../../Downloads/BeWellResources/sound6.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,15 +160,15 @@
 		FE2B6A1323450A5F006A74F7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				FEC00AB9234660A700740DAF /* sound6.m4a */,
-				FEC00AB8234660A700740DAF /* sound7.m4a */,
-				FEC00ABA234660A700740DAF /* sound8.m4a */,
-				FE2B6A252346340B006A74F7 /* background_music.mp3 */,
+				FEC00ABD2346715E00740DAF /* sound6.m4a */,
+				FEC00ABB2346715E00740DAF /* sound7.m4a */,
+				FEC00ABC2346715E00740DAF /* sound8.m4a */,
 				FE2B6A1C2345281B006A74F7 /* sound1.m4a */,
 				FE2B6A192345281B006A74F7 /* sound2.m4a */,
 				FE2B6A1A2345281B006A74F7 /* sound3.m4a */,
 				FE2B6A1B2345281B006A74F7 /* sound4.m4a */,
 				FE2B6A182345281B006A74F7 /* sound5.m4a */,
+				FE2B6A252346340B006A74F7 /* background_music.mp3 */,
 				FE2B6A1523450D00006A74F7 /* hyeeeeh.m4a */,
 				FE2B6A1423450D00006A74F7 /* hyeeeeh1.m4a */,
 			);
@@ -276,7 +279,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEC00AC02346715E00740DAF /* sound6.m4a in Resources */,
 				FE2B6A262346340B006A74F7 /* background_music.mp3 in Resources */,
+				FEC00ABF2346715E00740DAF /* sound8.m4a in Resources */,
 				FE018147233FD7780076ECB7 /* LaunchScreen.storyboard in Resources */,
 				FE2B6A1F2345281B006A74F7 /* sound3.m4a in Resources */,
 				FE018144233FD7780076ECB7 /* Assets.xcassets in Resources */,
@@ -287,6 +292,7 @@
 				FE2B6A212345281B006A74F7 /* sound1.m4a in Resources */,
 				FE2B6A1D2345281B006A74F7 /* sound5.m4a in Resources */,
 				FE2B6A2423462F9C006A74F7 /* background.jpg in Resources */,
+				FEC00ABE2346715E00740DAF /* sound7.m4a in Resources */,
 				FE018142233FD7770076ECB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

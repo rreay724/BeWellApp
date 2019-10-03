@@ -39,19 +39,30 @@
                                     <action selector="beWell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vXd-d0-THi"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Be Well" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s3s-gq-3qY">
+                                <rect key="frame" x="107" y="142" width="200" height="88"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="lq5-9k-5ma" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1f8-cj-Bl2"/>
                             <constraint firstItem="lq5-9k-5ma" firstAttribute="leading" secondItem="CO1-QD-dgJ" secondAttribute="leading" id="6S2-Ec-rRa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CO1-QD-dgJ" secondAttribute="trailing" constant="67" id="7Kg-Gv-mHg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s3s-gq-3qY" secondAttribute="trailing" constant="107" id="9Ai-MX-TfJ"/>
+                            <constraint firstItem="s3s-gq-3qY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DUB-wf-4Rf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lq5-9k-5ma" secondAttribute="trailing" constant="67" id="Gbz-dO-Gn5"/>
                             <constraint firstItem="gM6-Yw-Dtt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="I4U-yp-vHk"/>
                             <constraint firstItem="lq5-9k-5ma" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="Oa9-g1-ZHg"/>
                             <constraint firstItem="CO1-QD-dgJ" firstAttribute="top" secondItem="lq5-9k-5ma" secondAttribute="bottom" constant="29" id="TL3-gT-STb"/>
+                            <constraint firstItem="gM6-Yw-Dtt" firstAttribute="top" secondItem="s3s-gq-3qY" secondAttribute="bottom" constant="135" id="TlO-sE-4FV"/>
                             <constraint firstItem="CO1-QD-dgJ" firstAttribute="top" secondItem="lq5-9k-5ma" secondAttribute="bottom" constant="29" id="c3k-bH-Uri"/>
+                            <constraint firstItem="s3s-gq-3qY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="54" id="dvy-Lt-OZo"/>
                             <constraint firstItem="lq5-9k-5ma" firstAttribute="top" secondItem="gM6-Yw-Dtt" secondAttribute="bottom" constant="29" id="e3V-0Z-dNn"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gM6-Yw-Dtt" secondAttribute="trailing" constant="67" id="gSL-yI-2aL"/>
+                            <constraint firstItem="s3s-gq-3qY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lZh-pW-x9Q"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -74,8 +85,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="launchLabel" text="Welcome to Serenity for Your Well Being" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etw-5q-hIX" userLabel="launchLabel">
-                                <rect key="frame" x="23" y="440" width="368" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="launchLabel" text="Welcome to Serenity for Your Well Being" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etw-5q-hIX" userLabel="launchLabel">
+                                <rect key="frame" x="23" y="433" width="371" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="etw-5q-hIX" secondAttribute="height" multiplier="371:16" constant="-255.0625" id="NkR-t2-V9e"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="16"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -83,9 +97,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerY" secondItem="Iyf-g8-7Cc" secondAttribute="centerY" id="0kc-u6-PUW"/>
+                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerY" secondItem="Iyf-g8-7Cc" secondAttribute="centerY" constant="-1.5" id="0kc-u6-PUW"/>
                             <constraint firstItem="etw-5q-hIX" firstAttribute="leading" secondItem="7r4-5Y-eTt" secondAttribute="leading" constant="23" id="bvW-S1-xtR"/>
-                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerX" secondItem="Iyf-g8-7Cc" secondAttribute="centerX" id="yzC-fb-m3o"/>
+                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerX" secondItem="Iyf-g8-7Cc" secondAttribute="centerX" constant="1.5" id="yzC-fb-m3o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7r4-5Y-eTt"/>
                     </view>
