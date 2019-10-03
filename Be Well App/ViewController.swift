@@ -22,7 +22,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var spiritualCleanseButton: UIButton!
     
     var randomIndex = 0
-    var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5"]
+    var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5", "sound6", "sound7", "sound8"]
     
 
     override func viewDidLoad() {
@@ -33,6 +33,21 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         self.view.backgroundColor = UIColor(patternImage: image)
+        
+        // Button settings
+        beWellButton.backgroundColor = UIColor(hue: 0.6611, saturation: 0.35, brightness: 1, alpha: 1.0)
+        beWellButton.layer.cornerRadius = beWellButton.frame.height / 2
+        beWellButton.setTitleColor(UIColor.white, for: .normal)
+        
+        restoreMindBodyButton.backgroundColor = UIColor(hue: 0.6611, saturation: 0.35, brightness: 1, alpha: 1.0)
+        restoreMindBodyButton.layer.cornerRadius = restoreMindBodyButton.frame.height / 2
+        restoreMindBodyButton.setTitleColor(UIColor.white, for: .normal)
+        
+        spiritualCleanseButton.backgroundColor = UIColor(hue: 0.6611, saturation: 0.35, brightness: 1, alpha: 1.0)
+        spiritualCleanseButton.layer.cornerRadius = beWellButton.frame.height / 2
+        spiritualCleanseButton.setTitleColor(UIColor.white, for: .normal)
+        
+        
         
        }
     

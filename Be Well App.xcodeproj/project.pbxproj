@@ -69,6 +69,9 @@
 		FE2B6A1C2345281B006A74F7 /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
 		FE2B6A2323462F9C006A74F7 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../Downloads/BeWellResources/background.jpg; sourceTree = "<group>"; };
 		FE2B6A252346340B006A74F7 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music.mp3; sourceTree = "<group>"; };
+		FEC00AB8234660A700740DAF /* sound7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound7.m4a; sourceTree = "<group>"; };
+		FEC00AB9234660A700740DAF /* sound6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound6.m4a; sourceTree = "<group>"; };
+		FEC00ABA234660A700740DAF /* sound8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound8.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,9 @@
 		FE2B6A1323450A5F006A74F7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				FEC00AB9234660A700740DAF /* sound6.m4a */,
+				FEC00AB8234660A700740DAF /* sound7.m4a */,
+				FEC00ABA234660A700740DAF /* sound8.m4a */,
 				FE2B6A252346340B006A74F7 /* background_music.mp3 */,
 				FE2B6A1C2345281B006A74F7 /* sound1.m4a */,
 				FE2B6A192345281B006A74F7 /* sound2.m4a */,
