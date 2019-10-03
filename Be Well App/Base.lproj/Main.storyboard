@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LWx-if-IeW">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Be_Well_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lq5-9k-5ma">
+                                <rect key="frame" x="20" y="433" width="374" height="30"/>
+                                <state key="normal" title="Press to Restore Mind and Body"/>
+                                <connections>
+                                    <action selector="playShortHyeeh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n0a-Mg-4nP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CO1-QD-dgJ">
+                                <rect key="frame" x="20" y="492" width="374" height="30"/>
+                                <state key="normal" title="Press for Full Spiritual Cleanse"/>
+                                <connections>
+                                    <action selector="playFullHyeeeh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q1n-zg-CoP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gM6-Yw-Dtt">
+                                <rect key="frame" x="67" y="374" width="280" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Skia-Regular_Bold" family="Skia" pointSize="15"/>
+                                <state key="normal" title="Press to Be Well">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="beWell:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vXd-d0-THi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="lq5-9k-5ma" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1f8-cj-Bl2"/>
+                            <constraint firstItem="lq5-9k-5ma" firstAttribute="leading" secondItem="CO1-QD-dgJ" secondAttribute="leading" id="6S2-Ec-rRa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CO1-QD-dgJ" secondAttribute="trailing" constant="20" id="7Kg-Gv-mHg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lq5-9k-5ma" secondAttribute="trailing" constant="20" id="Gbz-dO-Gn5"/>
+                            <constraint firstItem="gM6-Yw-Dtt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="I4U-yp-vHk"/>
+                            <constraint firstItem="lq5-9k-5ma" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Oa9-g1-ZHg"/>
+                            <constraint firstItem="CO1-QD-dgJ" firstAttribute="top" secondItem="lq5-9k-5ma" secondAttribute="bottom" constant="29" id="TL3-gT-STb"/>
+                            <constraint firstItem="CO1-QD-dgJ" firstAttribute="top" secondItem="lq5-9k-5ma" secondAttribute="bottom" constant="29" id="c3k-bH-Uri"/>
+                            <constraint firstItem="lq5-9k-5ma" firstAttribute="top" secondItem="gM6-Yw-Dtt" secondAttribute="bottom" constant="29" id="e3V-0Z-dNn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gM6-Yw-Dtt" secondAttribute="trailing" constant="67" id="gSL-yI-2aL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FcX-ex-R4k"/>
+                    <connections>
+                        <outlet property="beWellButton" destination="gM6-Yw-Dtt" id="0Ou-s9-5vw"/>
+                        <outlet property="restoreMindBodyButton" destination="lq5-9k-5ma" id="Cq7-bJ-vGk"/>
+                        <outlet property="spiritualCleanseButton" destination="CO1-QD-dgJ" id="0dy-sP-fIV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="139"/>
+        </scene>
+        <!--Launch View Controller-->
+        <scene sceneID="EwR-Di-RlQ">
+            <objects>
+                <viewController id="gBg-a4-MdU" userLabel="Launch View Controller" customClass="LaunchViewController" customModule="Be_Well_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iyf-g8-7Cc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="launchLabel" text="Welcome to Serenity for Your Well Being" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etw-5q-hIX" userLabel="launchLabel">
+                                <rect key="frame" x="23" y="440" width="368" height="16"/>
+                                <fontDescription key="fontDescription" name="HiraMinProN-W6" family="Hiragino Mincho ProN" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerY" secondItem="Iyf-g8-7Cc" secondAttribute="centerY" id="0kc-u6-PUW"/>
+                            <constraint firstItem="etw-5q-hIX" firstAttribute="leading" secondItem="7r4-5Y-eTt" secondAttribute="leading" constant="23" id="bvW-S1-xtR"/>
+                            <constraint firstItem="etw-5q-hIX" firstAttribute="centerX" secondItem="Iyf-g8-7Cc" secondAttribute="centerX" id="yzC-fb-m3o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7r4-5Y-eTt"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2mc-qg-N5n"/>
+                    <connections>
+                        <outlet property="launchLabel" destination="etw-5q-hIX" id="afM-Wf-fIZ"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="launchSegue" id="GMU-Mq-Vcz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2H-fy-oxj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-617.39130434782612" y="138.61607142857142"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1SD-1j-8Pa">
+            <objects>
+                <navigationController id="LWx-if-IeW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="GGR-36-vas">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="gBg-a4-MdU" kind="relationship" relationship="rootViewController" id="dSP-0q-5Am"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xVn-CE-Qqx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1400" y="139"/>
+        </scene>
+    </scenes>
+</document>

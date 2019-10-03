@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE01813B233FD7770076ECB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01813A233FD7770076ECB7 /* AppDelegate.swift */; };
+		FE01813D233FD7770076ECB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01813C233FD7770076ECB7 /* SceneDelegate.swift */; };
+		FE01813F233FD7770076ECB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01813E233FD7770076ECB7 /* ViewController.swift */; };
+		FE018142233FD7770076ECB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE018140233FD7770076ECB7 /* Main.storyboard */; };
+		FE018144233FD7780076ECB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE018143233FD7780076ECB7 /* Assets.xcassets */; };
+		FE018147233FD7780076ECB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE018145233FD7780076ECB7 /* LaunchScreen.storyboard */; };
+		FE018152233FD7780076ECB7 /* Be_Well_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE018151233FD7780076ECB7 /* Be_Well_AppTests.swift */; };
+		FE01815D233FD7780076ECB7 /* Be_Well_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01815C233FD7780076ECB7 /* Be_Well_AppUITests.swift */; };
+		FE018171234247400076ECB7 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE018170234247400076ECB7 /* LaunchViewController.swift */; };
+		FE2B6A1623450D00006A74F7 /* hyeeeeh1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1423450D00006A74F7 /* hyeeeeh1.m4a */; };
+		FE2B6A1723450D00006A74F7 /* hyeeeeh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1523450D00006A74F7 /* hyeeeeh.m4a */; };
+		FE2B6A1D2345281B006A74F7 /* sound5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A182345281B006A74F7 /* sound5.m4a */; };
+		FE2B6A1E2345281B006A74F7 /* sound2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A192345281B006A74F7 /* sound2.m4a */; };
+		FE2B6A1F2345281B006A74F7 /* sound3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1A2345281B006A74F7 /* sound3.m4a */; };
+		FE2B6A202345281B006A74F7 /* sound4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1B2345281B006A74F7 /* sound4.m4a */; };
+		FE2B6A212345281B006A74F7 /* sound1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A1C2345281B006A74F7 /* sound1.m4a */; };
+		FE2B6A2423462F9C006A74F7 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A2323462F9C006A74F7 /* background.jpg */; };
+		FE2B6A262346340B006A74F7 /* background_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FE2B6A252346340B006A74F7 /* background_music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE01814E233FD7780076ECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE01812F233FD7770076ECB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE018136233FD7770076ECB7;
+			remoteInfo = "Be Well App";
+		};
+		FE018159233FD7780076ECB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE01812F233FD7770076ECB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE018136233FD7770076ECB7;
+			remoteInfo = "Be Well App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE018137233FD7770076ECB7 /* Be Well App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Be Well App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE01813A233FD7770076ECB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE01813C233FD7770076ECB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE01813E233FD7770076ECB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE018141233FD7770076ECB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE018143233FD7780076ECB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE018146233FD7780076ECB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE018148233FD7780076ECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE01814D233FD7780076ECB7 /* Be Well AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be Well AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE018151233FD7780076ECB7 /* Be_Well_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_Well_AppTests.swift; sourceTree = "<group>"; };
+		FE018153233FD7780076ECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE018158233FD7780076ECB7 /* Be Well AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Be Well AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE01815C233FD7780076ECB7 /* Be_Well_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Be_Well_AppUITests.swift; sourceTree = "<group>"; };
+		FE01815E233FD7780076ECB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE018170234247400076ECB7 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		FE2B6A1423450D00006A74F7 /* hyeeeeh1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hyeeeeh1.m4a; sourceTree = "<group>"; };
+		FE2B6A1523450D00006A74F7 /* hyeeeeh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = hyeeeeh.m4a; sourceTree = "<group>"; };
+		FE2B6A182345281B006A74F7 /* sound5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound5.m4a; sourceTree = "<group>"; };
+		FE2B6A192345281B006A74F7 /* sound2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound2.m4a; sourceTree = "<group>"; };
+		FE2B6A1A2345281B006A74F7 /* sound3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound3.m4a; sourceTree = "<group>"; };
+		FE2B6A1B2345281B006A74F7 /* sound4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound4.m4a; sourceTree = "<group>"; };
+		FE2B6A1C2345281B006A74F7 /* sound1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sound1.m4a; sourceTree = "<group>"; };
+		FE2B6A2323462F9C006A74F7 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = ../../../../Downloads/BeWellResources/background.jpg; sourceTree = "<group>"; };
+		FE2B6A252346340B006A74F7 /* background_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = background_music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE018134233FD7770076ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE01814A233FD7780076ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE018155233FD7780076ECB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE01812E233FD7770076ECB7 = {
+			isa = PBXGroup;
+			children = (
+				FE018139233FD7770076ECB7 /* Be Well App */,
+				FE018150233FD7780076ECB7 /* Be Well AppTests */,
+				FE01815B233FD7780076ECB7 /* Be Well AppUITests */,
+				FE018138233FD7770076ECB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE018138233FD7770076ECB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE018137233FD7770076ECB7 /* Be Well App.app */,
+				FE01814D233FD7780076ECB7 /* Be Well AppTests.xctest */,
+				FE018158233FD7780076ECB7 /* Be Well AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE018139233FD7770076ECB7 /* Be Well App */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B6A1323450A5F006A74F7 /* Sounds */,
+				FE01813A233FD7770076ECB7 /* AppDelegate.swift */,
+				FE01813C233FD7770076ECB7 /* SceneDelegate.swift */,
+				FE01813E233FD7770076ECB7 /* ViewController.swift */,
+				FE018140233FD7770076ECB7 /* Main.storyboard */,
+				FE018143233FD7780076ECB7 /* Assets.xcassets */,
+				FE2B6A2323462F9C006A74F7 /* background.jpg */,
+				FE018145233FD7780076ECB7 /* LaunchScreen.storyboard */,
+				FE018148233FD7780076ECB7 /* Info.plist */,
+				FE018170234247400076ECB7 /* LaunchViewController.swift */,
+			);
+			path = "Be Well App";
+			sourceTree = "<group>";
+		};
+		FE018150233FD7780076ECB7 /* Be Well AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE018151233FD7780076ECB7 /* Be_Well_AppTests.swift */,
+				FE018153233FD7780076ECB7 /* Info.plist */,
+			);
+			path = "Be Well AppTests";
+			sourceTree = "<group>";
+		};
+		FE01815B233FD7780076ECB7 /* Be Well AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE01815C233FD7780076ECB7 /* Be_Well_AppUITests.swift */,
+				FE01815E233FD7780076ECB7 /* Info.plist */,
+			);
+			path = "Be Well AppUITests";
+			sourceTree = "<group>";
+		};
+		FE2B6A1323450A5F006A74F7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FE2B6A252346340B006A74F7 /* background_music.mp3 */,
+				FE2B6A1C2345281B006A74F7 /* sound1.m4a */,
+				FE2B6A192345281B006A74F7 /* sound2.m4a */,
+				FE2B6A1A2345281B006A74F7 /* sound3.m4a */,
+				FE2B6A1B2345281B006A74F7 /* sound4.m4a */,
+				FE2B6A182345281B006A74F7 /* sound5.m4a */,
+				FE2B6A1523450D00006A74F7 /* hyeeeeh.m4a */,
+				FE2B6A1423450D00006A74F7 /* hyeeeeh1.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE018136233FD7770076ECB7 /* Be Well App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE018161233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well App" */;
+			buildPhases = (
+				FE018133233FD7770076ECB7 /* Sources */,
+				FE018134233FD7770076ECB7 /* Frameworks */,
+				FE018135233FD7770076ECB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Be Well App";
+			productName = "Be Well App";
+			productReference = FE018137233FD7770076ECB7 /* Be Well App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE01814C233FD7780076ECB7 /* Be Well AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE018164233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well AppTests" */;
+			buildPhases = (
+				FE018149233FD7780076ECB7 /* Sources */,
+				FE01814A233FD7780076ECB7 /* Frameworks */,
+				FE01814B233FD7780076ECB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE01814F233FD7780076ECB7 /* PBXTargetDependency */,
+			);
+			name = "Be Well AppTests";
+			productName = "Be Well AppTests";
+			productReference = FE01814D233FD7780076ECB7 /* Be Well AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE018157233FD7780076ECB7 /* Be Well AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE018167233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well AppUITests" */;
+			buildPhases = (
+				FE018154233FD7780076ECB7 /* Sources */,
+				FE018155233FD7780076ECB7 /* Frameworks */,
+				FE018156233FD7780076ECB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE01815A233FD7780076ECB7 /* PBXTargetDependency */,
+			);
+			name = "Be Well AppUITests";
+			productName = "Be Well AppUITests";
+			productReference = FE018158233FD7780076ECB7 /* Be Well AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE01812F233FD7770076ECB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Bobby Reay";
+				TargetAttributes = {
+					FE018136233FD7770076ECB7 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					FE01814C233FD7780076ECB7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE018136233FD7770076ECB7;
+					};
+					FE018157233FD7780076ECB7 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = FE018136233FD7770076ECB7;
+					};
+				};
+			};
+			buildConfigurationList = FE018132233FD7770076ECB7 /* Build configuration list for PBXProject "Be Well App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE01812E233FD7770076ECB7;
+			productRefGroup = FE018138233FD7770076ECB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE018136233FD7770076ECB7 /* Be Well App */,
+				FE01814C233FD7780076ECB7 /* Be Well AppTests */,
+				FE018157233FD7780076ECB7 /* Be Well AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE018135233FD7770076ECB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2B6A262346340B006A74F7 /* background_music.mp3 in Resources */,
+				FE018147233FD7780076ECB7 /* LaunchScreen.storyboard in Resources */,
+				FE2B6A1F2345281B006A74F7 /* sound3.m4a in Resources */,
+				FE018144233FD7780076ECB7 /* Assets.xcassets in Resources */,
+				FE2B6A202345281B006A74F7 /* sound4.m4a in Resources */,
+				FE2B6A1E2345281B006A74F7 /* sound2.m4a in Resources */,
+				FE2B6A1723450D00006A74F7 /* hyeeeeh.m4a in Resources */,
+				FE2B6A1623450D00006A74F7 /* hyeeeeh1.m4a in Resources */,
+				FE2B6A212345281B006A74F7 /* sound1.m4a in Resources */,
+				FE2B6A1D2345281B006A74F7 /* sound5.m4a in Resources */,
+				FE2B6A2423462F9C006A74F7 /* background.jpg in Resources */,
+				FE018142233FD7770076ECB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE01814B233FD7780076ECB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE018156233FD7780076ECB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE018133233FD7770076ECB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE01813F233FD7770076ECB7 /* ViewController.swift in Sources */,
+				FE01813B233FD7770076ECB7 /* AppDelegate.swift in Sources */,
+				FE01813D233FD7770076ECB7 /* SceneDelegate.swift in Sources */,
+				FE018171234247400076ECB7 /* LaunchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE018149233FD7780076ECB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE018152233FD7780076ECB7 /* Be_Well_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE018154233FD7780076ECB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE01815D233FD7780076ECB7 /* Be_Well_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE01814F233FD7780076ECB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE018136233FD7770076ECB7 /* Be Well App */;
+			targetProxy = FE01814E233FD7780076ECB7 /* PBXContainerItemProxy */;
+		};
+		FE01815A233FD7780076ECB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE018136233FD7770076ECB7 /* Be Well App */;
+			targetProxy = FE018159233FD7780076ECB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE018140233FD7770076ECB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE018141233FD7770076ECB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE018145233FD7780076ECB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE018146233FD7780076ECB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE01815F233FD7780076ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE018160233FD7780076ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE018162233FD7780076ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE018163233FD7780076ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE018165233FD7780076ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Well App.app/Be Well App";
+			};
+			name = Debug;
+		};
+		FE018166233FD7780076ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Be Well App.app/Be Well App";
+			};
+			name = Release;
+		};
+		FE018168233FD7780076ECB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Be Well App";
+			};
+			name = Debug;
+		};
+		FE018169233FD7780076ECB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8LL5LC9U2;
+				INFOPLIST_FILE = "Be Well AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bobby.Be-Well-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Be Well App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE018132233FD7770076ECB7 /* Build configuration list for PBXProject "Be Well App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE01815F233FD7780076ECB7 /* Debug */,
+				FE018160233FD7780076ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE018161233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE018162233FD7780076ECB7 /* Debug */,
+				FE018163233FD7780076ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE018164233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE018165233FD7780076ECB7 /* Debug */,
+				FE018166233FD7780076ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE018167233FD7780076ECB7 /* Build configuration list for PBXNativeTarget "Be Well AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE018168233FD7780076ECB7 /* Debug */,
+				FE018169233FD7780076ECB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE01812F233FD7770076ECB7 /* Project object */;
+}
