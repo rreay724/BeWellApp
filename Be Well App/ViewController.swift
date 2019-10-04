@@ -22,7 +22,8 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var spiritualCleanseButton: UIButton!
     
     var randomIndex = 0
-    var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5", "sound6", "sound7", "sound8"]
+    var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5", "sound6", "sound7", "sound8", "sound9",
+    "sound10", "sound11", "sound12", "sound13", "sound14"]
     
 
     override func viewDidLoad() {
@@ -70,7 +71,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
                 beWellAudioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: beWell!))
                 
                 // Causes to play audio even when phone is in silent mode
-//                try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
             }catch{
                 print(error)
             }
@@ -99,7 +100,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             audioPlayerHyeeeehShort = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: hyeeeehShort!))
            
             // Causes to play audio even when phone is in silent mode
-//            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
 
         }catch{
             print(error)
@@ -128,7 +129,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
                    audioPlayerHyeeeehLong = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: hyeeeeh!))
                 
                 // Causes to play audio even when phone is in silent mode
-//                try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+                try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
 
                }catch{
                    print(error)
