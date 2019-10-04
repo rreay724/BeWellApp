@@ -31,6 +31,8 @@
 		FE58E90823477F4A002AE223 /* sound11.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE58E90223477F49002AE223 /* sound11.m4a */; };
 		FE58E90923477F4A002AE223 /* sound9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE58E90323477F49002AE223 /* sound9.m4a */; };
 		FE58E90A23477F4A002AE223 /* sound10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE58E90423477F49002AE223 /* sound10.m4a */; };
+		FE58E90D2347873C002AE223 /* sound15.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE58E90B2347873C002AE223 /* sound15.m4a */; };
+		FE58E90E2347873C002AE223 /* sound16.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FE58E90C2347873C002AE223 /* sound16.m4a */; };
 		FEC00ABE2346715E00740DAF /* sound7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABB2346715E00740DAF /* sound7.m4a */; };
 		FEC00ABF2346715E00740DAF /* sound8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABC2346715E00740DAF /* sound8.m4a */; };
 		FEC00AC02346715E00740DAF /* sound6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FEC00ABD2346715E00740DAF /* sound6.m4a */; };
@@ -84,6 +86,8 @@
 		FE58E90223477F49002AE223 /* sound11.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound11.m4a; path = ../../../../../Downloads/BeWellResources/sound11.m4a; sourceTree = "<group>"; };
 		FE58E90323477F49002AE223 /* sound9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound9.m4a; path = ../../../../../Downloads/BeWellResources/sound9.m4a; sourceTree = "<group>"; };
 		FE58E90423477F49002AE223 /* sound10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound10.m4a; path = ../../../../../Downloads/BeWellResources/sound10.m4a; sourceTree = "<group>"; };
+		FE58E90B2347873C002AE223 /* sound15.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound15.m4a; path = ../../../../../Downloads/BeWellResources/sound15.m4a; sourceTree = "<group>"; };
+		FE58E90C2347873C002AE223 /* sound16.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound16.m4a; path = ../../../../../Downloads/BeWellResources/sound16.m4a; sourceTree = "<group>"; };
 		FEC00ABB2346715E00740DAF /* sound7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound7.m4a; path = ../../../../../Downloads/BeWellResources/sound7.m4a; sourceTree = "<group>"; };
 		FEC00ABC2346715E00740DAF /* sound8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound8.m4a; path = ../../../../../Downloads/BeWellResources/sound8.m4a; sourceTree = "<group>"; };
 		FEC00ABD2346715E00740DAF /* sound6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = sound6.m4a; path = ../../../../../Downloads/BeWellResources/sound6.m4a; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 		FE2B6A1323450A5F006A74F7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				FE58E90B2347873C002AE223 /* sound15.m4a */,
+				FE58E90C2347873C002AE223 /* sound16.m4a */,
 				FE58E90323477F49002AE223 /* sound9.m4a */,
 				FE58E90423477F49002AE223 /* sound10.m4a */,
 				FE58E90223477F49002AE223 /* sound11.m4a */,
@@ -299,6 +305,7 @@
 			files = (
 				FE58E90923477F4A002AE223 /* sound9.m4a in Resources */,
 				FEC00AC02346715E00740DAF /* sound6.m4a in Resources */,
+				FE58E90D2347873C002AE223 /* sound15.m4a in Resources */,
 				FE2B6A262346340B006A74F7 /* background_music.mp3 in Resources */,
 				FEC00ABF2346715E00740DAF /* sound8.m4a in Resources */,
 				FE58E90623477F4A002AE223 /* sound14.m4a in Resources */,
@@ -311,6 +318,7 @@
 				FE2B6A1723450D00006A74F7 /* hyeeeeh.m4a in Resources */,
 				FE58E90823477F4A002AE223 /* sound11.m4a in Resources */,
 				FE58E90723477F4A002AE223 /* sound12.m4a in Resources */,
+				FE58E90E2347873C002AE223 /* sound16.m4a in Resources */,
 				FE2B6A1623450D00006A74F7 /* hyeeeeh1.m4a in Resources */,
 				FE2B6A212345281B006A74F7 /* sound1.m4a in Resources */,
 				FE2B6A1D2345281B006A74F7 /* sound5.m4a in Resources */,

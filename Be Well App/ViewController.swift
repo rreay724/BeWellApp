@@ -23,7 +23,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var randomIndex = 0
     var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5", "sound6", "sound7", "sound8", "sound9",
-    "sound10", "sound11", "sound12", "sound13", "sound14"]
+    "sound10", "sound11", "sound12", "sound13", "sound14", "sound15", "sound16"]
     
 
     override func viewDidLoad() {
