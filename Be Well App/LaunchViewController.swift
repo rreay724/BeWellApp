@@ -21,11 +21,16 @@ class LaunchViewController: UIViewController, AVAudioPlayerDelegate {
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: backgroundMusic!))
             
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
+            
             // Causes to play audio even when phone is in silent mode
 //            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.playback)
         } catch{
             print(error)
         }
+        
+        // Causes to play audio even when phone is in silent mode
+       
         
         audioPlayer.play()
         if audioPlayer.isPlaying {
