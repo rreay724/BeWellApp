@@ -13,6 +13,8 @@ import AudioToolbox
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
+    var i = 0
+    
     var audioPlayerHyeeeehLong: AVAudioPlayer!
     var audioPlayerHyeeeehShort: AVAudioPlayer!
     var beWellAudioPlayer: AVAudioPlayer!
@@ -24,7 +26,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var randomIndex = 0
     var soundFiles = ["sound1", "sound2", "sound3", "sound4", "sound5", "sound6", "sound7", "sound8", "sound9",
     "sound10", "sound11", "sound12", "sound13", "sound14", "sound15", "sound16"]
-    
 
     override func viewDidLoad() {
         
@@ -62,8 +63,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
+    
     @IBAction func beWell(_ sender: UIButton) {
-        
+                
         randomIndex = Int(arc4random_uniform(UInt32(soundFiles.count)))
         let selectedFileName = soundFiles[randomIndex]
         let beWell = Bundle.main.path(forResource: selectedFileName, ofType: "m4a")
@@ -91,10 +93,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         sender.transform = CGAffineTransform.identity
         })
         })
+
     
     }
     
     @IBAction func playShortHyeeh(_ sender: UIButton) {
+
         let hyeeeehShort = Bundle.main.path(forResource: "hyeeeeh1", ofType: "m4a")
         do{
             audioPlayerHyeeeehShort = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: hyeeeehShort!))
@@ -120,10 +124,12 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         sender.transform = CGAffineTransform.identity
         })
         })
+        
+    
     }
     
     @IBAction func playFullHyeeeh(_ sender: UIButton) {
-        
+
         let hyeeeeh = Bundle.main.path(forResource: "hyeeeeh", ofType: "m4a")
                do{
                    audioPlayerHyeeeehLong = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: hyeeeeh!))
@@ -149,6 +155,11 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         sender.transform = CGAffineTransform.identity
         })
         })
+        
+       
     }
+    
+    
 }
+
 
